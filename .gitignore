@@ -1,0 +1,8 @@
+# build output (rebuild with the zip step in README)
+dist/
+
+# local tooling
+.claude/
+node_modules/
+.DS_Store
+Thumbs.db

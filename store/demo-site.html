@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northwind Coffee (demo)</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: #2a211b; background: #f7f1ea; }
+  nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; }
+  .logo { font-weight: 800; letter-spacing: -.02em; font-size: 18px; }
+  .links { display: none; gap: 22px; font-size: 14px; color: #6b5a4c; }
+  .menu { width: 34px; height: 34px; border-radius: 10px; background: #2a211b; display: grid; place-items: center; }
+  .menu i { width: 14px; height: 2px; background: #f7f1ea; box-shadow: 0 5px 0 #f7f1ea, 0 -5px 0 #f7f1ea; }
+  .hero { padding: 18px 20px 28px; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 99px; background: #e9dccd; color: #7a4e2d; }
+  h1 { font-size: 38px; line-height: 1.05; letter-spacing: -.035em; margin: 14px 0 12px; }
+  .hero p { color: #6b5a4c; margin: 0 0 20px; max-width: 34ch; }
+  .cta { display: inline-block; background: #c4622d; color: #fff; padding: 12px 20px; border-radius: 12px; font-weight: 600; }
+  .art { margin: 24px 20px 0; height: 210px; border-radius: 22px;
+         background: radial-gradient(circle at 30% 35%, #f3c48f 0 18%, transparent 19%), radial-gradient(circle at 68% 60%, #8a5434 0 24%, transparent 25%), linear-gradient(135deg, #d98a4f, #6b3a20); }
+  .grid { display: grid; gap: 12px; padding: 24px 20px 40px; }
+  .card { background: #fff; border-radius: 18px; padding: 16px; display: flex; gap: 14px; align-items: center; }
+  .dot { width: 52px; height: 52px; border-radius: 14px; flex: none; }
+  .card b { display: block; }
+  .card span { color: #8a7867; font-size: 13px; }
+  .price { margin-left: auto; font-weight: 700; }
+  @media (min-width: 600px) {
+    .links { display: flex; } .menu { display: none; }
+    .wrap { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; }
+    .art { height: 300px; margin: 0 20px 0 0; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 48px; }
+  }
+  @media (min-width: 960px) { .grid { grid-template-columns: repeat(3, 1fr); } h1 { font-size: 60px; } }
+</style>
+</head>
+<body>
+  <nav><span class="logo">Northwind ☕</span><span class="links"><span>Menu</span><span>Beans</span><span>Visit</span></span><span class="menu"><i></i></span></nav>
+  <div class="wrap">
+    <section class="hero">
+      <span class="tag">Fresh roast · Fridays</span>
+      <h1>Slow coffee for fast mornings.</h1>
+      <p>Single-origin beans, roasted in small batches and delivered while they still smell like the roastery.</p>
+      <span class="cta">Order a bag</span>
+    </section>
+    <div class="art"></div>
+  </div>
+  <section class="grid">
+    <div class="card"><span class="dot" style="background:#d98a4f"></span><div><b>Ethiopia Guji</b><span>Peach, jasmine</span></div><span class="price">$18</span></div>
+    <div class="card"><span class="dot" style="background:#6b3a20"></span><div><b>Colombia Huila</b><span>Cocoa, cherry</span></div><span class="price">$16</span></div>
+    <div class="card"><span class="dot" style="background:#b8784a"></span><div><b>House Blend</b><span>Caramel, nuts</span></div><span class="price">$14</span></div>
+  </section>
+</body>
+</html>
