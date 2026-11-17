@@ -3,14 +3,13 @@ See your site the way phones really show it, including the new foldables.
 Click the Foldframe icon on any tab and the page opens inside a device frame at the exact CSS viewport of the device you pick.
 
 WHAT YOU GET
-• iPhone 18 Pro / Pro Max, iPhone Air, iPhone 17, iPhone SE
-• Galaxy S26 Ultra, Galaxy S25, Pixel 10 / 10 Pro, Xiaomi 17
-• Foldables with real folded and unfolded sizes: Galaxy Z Flip 8, Galaxy Z Fold 8, Galaxy Z Fold 8 Ultra, iPhone Duo
-• iPad mini, iPad 11", iPad Pro 13"
-• Custom width × height
-• Portrait / landscape in one click (R), fold / unfold (F), fit to window or 100% (Z)
-• Hinge crease shown on unfolded foldables so you can spot content that lands on the fold
-• Works with localhost and dev servers
+• Around 20 current phones, tablets and foldables, with accurate screen sizes
+• Foldables can be shown folded or unfolded, with the hinge crease visible so you can spot content that lands on the fold
+• Portrait or landscape in one click
+• Your own custom width and height
+• Fit the device to the window, or view it at 100%
+• Keyboard shortcuts: R to rotate, F to fold, Z to zoom
+• Works with localhost and local dev servers
 • Dark and light theme, English and Thai
 
 PRIVACY FIRST
@@ -18,4 +17,4 @@ PRIVACY FIRST
 • Asks for access one site at a time, only when you preview it
 • Only changes headers inside its own preview tab. Your normal tabs are never touched
 
-Viewport sizes come from public device databases. Sizes for the newest models may be refined in updates.
+Screen sizes come from public device databases and are updated as new devices are released.
